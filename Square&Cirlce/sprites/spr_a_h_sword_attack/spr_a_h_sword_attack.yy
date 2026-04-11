@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_s_sword_attack",
+  "%Name":"spr_a_h_sword_attack",
   "bboxMode":0,
   "bbox_bottom":100,
   "bbox_left":42,
@@ -29,19 +29,19 @@
     {"$GMImageLayer":"","%Name":"6e1e8bc6-ef64-4a2e-998b-b316d5fe0684","blendMode":0,"displayName":"eye","isLocked":false,"name":"6e1e8bc6-ef64-4a2e-998b-b316d5fe0684","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"ab93dd04-7337-49ed-895d-ca7c84617770","blendMode":0,"displayName":"body","isLocked":false,"name":"ab93dd04-7337-49ed-895d-ca7c84617770","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_s_sword_attack",
+  "name":"spr_a_h_sword_attack",
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Squares_1",
-    "path":"folders/Sprites/Squares/Squares_1.yy",
+    "name":"Human",
+    "path":"folders/Sprites/Allaince/Human.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_s_sword_attack",
+    "%Name":"spr_a_h_sword_attack",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -65,7 +65,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_s_sword_attack",
+    "name":"spr_a_h_sword_attack",
     "playback":1,
     "playbackSpeed":15.0,
     "playbackSpeedType":0,
@@ -77,22 +77,22 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6c472552-b5b3-4ea9-a3ab-6517b1b85e16","path":"sprites/spr_s_sword_attack/spr_s_sword_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6c472552-b5b3-4ea9-a3ab-6517b1b85e16","path":"sprites/spr_a_h_sword_attack/spr_a_h_sword_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"f076e1b5-5590-4d98-93e8-bd4105292b80","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4c477b65-998f-461e-b1d7-65403f4c8ec6","path":"sprites/spr_s_sword_attack/spr_s_sword_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4c477b65-998f-461e-b1d7-65403f4c8ec6","path":"sprites/spr_a_h_sword_attack/spr_a_h_sword_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"5f92afba-d6a1-4f16-a2a5-fca0cb3f63ad","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7d9212a4-2b79-4709-9f8c-9ccad4faa6fe","path":"sprites/spr_s_sword_attack/spr_s_sword_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7d9212a4-2b79-4709-9f8c-9ccad4faa6fe","path":"sprites/spr_a_h_sword_attack/spr_a_h_sword_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"8d8d10d6-f3be-4bab-a384-70ac15c79e90","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"54d45cf4-8929-40e2-b7ee-30a833f1cf0d","path":"sprites/spr_s_sword_attack/spr_s_sword_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"54d45cf4-8929-40e2-b7ee-30a833f1cf0d","path":"sprites/spr_a_h_sword_attack/spr_a_h_sword_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"70f25da1-d271-4690-a164-1be99fbffb41","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fe5eb2f4-fc95-4252-bbf0-3a291675a759","path":"sprites/spr_s_sword_attack/spr_s_sword_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fe5eb2f4-fc95-4252-bbf0-3a291675a759","path":"sprites/spr_a_h_sword_attack/spr_a_h_sword_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"be34393f-7d4d-434a-aead-e519e8b772a0","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fe115a2c-d18b-400d-a9e0-63b58f43a8ac","path":"sprites/spr_s_sword_attack/spr_s_sword_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fe115a2c-d18b-400d-a9e0-63b58f43a8ac","path":"sprites/spr_a_h_sword_attack/spr_a_h_sword_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"6a66aaff-cde2-459e-a398-b013fa10e412","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

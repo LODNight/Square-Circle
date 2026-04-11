@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_a_sworld_1",
+  "%Name":"obj_a_h_archer",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_a_sworld_1",
+  "name":"obj_a_h_archer",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_unit_parent","path":"objects/obj_unit_parent/obj_unit_parent.yy",},"propertyId":{"name":"move_speed","path":"objects/obj_unit_parent/obj_unit_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_unit_parent","path":"objects/obj_unit_parent/obj_unit_parent.yy",},"propertyId":{"name":"atk_speed","path":"objects/obj_unit_parent/obj_unit_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"90",},
   ],
   "parent":{
-    "name":"Alliances",
-    "path":"folders/Objects/Alliances.yy",
+    "name":"Human",
+    "path":"folders/Objects/Alliances/Human.yy",
   },
   "parentObjectId":{
     "name":"obj_player_unit",
@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_s_sword_idle",
-    "path":"sprites/spr_s_sword_idle/spr_s_sword_idle.yy",
+    "name":"spr_a_h_sword_idle",
+    "path":"sprites/spr_a_h_sword_idle/spr_a_h_sword_idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

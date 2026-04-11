@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_e_sword_attack",
+  "%Name":"spr_e_orc_sword_attack",
   "bboxMode":0,
   "bbox_bottom":101,
   "bbox_left":40,
@@ -29,19 +29,19 @@
     {"$GMImageLayer":"","%Name":"6e1e8bc6-ef64-4a2e-998b-b316d5fe0684","blendMode":0,"displayName":"eye","isLocked":false,"name":"6e1e8bc6-ef64-4a2e-998b-b316d5fe0684","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"ab93dd04-7337-49ed-895d-ca7c84617770","blendMode":0,"displayName":"body","isLocked":false,"name":"ab93dd04-7337-49ed-895d-ca7c84617770","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_e_sword_attack",
+  "name":"spr_e_orc_sword_attack",
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Cirlce_1",
-    "path":"folders/Sprites/Circles/Cirlce_1.yy",
+    "name":"Orc",
+    "path":"folders/Sprites/Enemy/Orc.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_e_sword_attack",
+    "%Name":"spr_e_orc_sword_attack",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -65,7 +65,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_e_sword_attack",
+    "name":"spr_e_orc_sword_attack",
     "playback":1,
     "playbackSpeed":15.0,
     "playbackSpeedType":0,
@@ -77,22 +77,22 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6c472552-b5b3-4ea9-a3ab-6517b1b85e16","path":"sprites/spr_e_sword_attack/spr_e_sword_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6c472552-b5b3-4ea9-a3ab-6517b1b85e16","path":"sprites/spr_e_orc_sword_attack/spr_e_orc_sword_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"f076e1b5-5590-4d98-93e8-bd4105292b80","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5938016d-0122-42c4-8873-2103234e06cb","path":"sprites/spr_e_sword_attack/spr_e_sword_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5938016d-0122-42c4-8873-2103234e06cb","path":"sprites/spr_e_orc_sword_attack/spr_e_orc_sword_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"f130b2a2-6917-47f3-b5eb-287fa10c93d9","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4f91e2b9-a52e-432a-9efc-1f3623f79243","path":"sprites/spr_e_sword_attack/spr_e_sword_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4f91e2b9-a52e-432a-9efc-1f3623f79243","path":"sprites/spr_e_orc_sword_attack/spr_e_orc_sword_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"1452d076-cbf8-4ada-bf3d-3dce96a11427","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3dc10d99-24a4-4803-8fb1-61ee7d59654a","path":"sprites/spr_e_sword_attack/spr_e_sword_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3dc10d99-24a4-4803-8fb1-61ee7d59654a","path":"sprites/spr_e_orc_sword_attack/spr_e_orc_sword_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"7a1ed2d2-1b58-4107-858e-beae409f4584","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4ab23494-12e3-4a92-a4bb-0cb27f5b1143","path":"sprites/spr_e_sword_attack/spr_e_sword_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4ab23494-12e3-4a92-a4bb-0cb27f5b1143","path":"sprites/spr_e_orc_sword_attack/spr_e_orc_sword_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"8cc35ef6-bd14-418c-a61a-6c45349432ba","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7d50ec6e-7370-407b-bfd1-1300a317c149","path":"sprites/spr_e_sword_attack/spr_e_sword_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7d50ec6e-7370-407b-bfd1-1300a317c149","path":"sprites/spr_e_orc_sword_attack/spr_e_orc_sword_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"bed34241-c239-4f2f-85bc-b559493ea975","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

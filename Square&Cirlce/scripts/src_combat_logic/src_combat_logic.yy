@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"src_combat_logic",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"src_combat_logic",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

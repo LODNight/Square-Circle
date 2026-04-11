@@ -1,18 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_e_sworld_1",
+  "%Name":"obj_e_orc_sworld",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_e_sworld_1",
+  "name":"obj_e_orc_sworld",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_unit_parent","path":"objects/obj_unit_parent/obj_unit_parent.yy",},"propertyId":{"name":"move_speed","path":"objects/obj_unit_parent/obj_unit_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_unit_parent","path":"objects/obj_unit_parent/obj_unit_parent.yy",},"propertyId":{"name":"atk_speed","path":"objects/obj_unit_parent/obj_unit_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"90",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_unit_parent","path":"objects/obj_unit_parent/obj_unit_parent.yy",},"propertyId":{"name":"atk_speed","path":"objects/obj_unit_parent/obj_unit_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"180",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_unit_parent","path":"objects/obj_unit_parent/obj_unit_parent.yy",},"propertyId":{"name":"atk_damage","path":"objects/obj_unit_parent/obj_unit_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"80",},
   ],
   "parent":{
-    "name":"Enemies",
-    "path":"folders/Objects/Enemies.yy",
+    "name":"Orc",
+    "path":"folders/Objects/Enemies/Orc.yy",
   },
   "parentObjectId":{
     "name":"obj_enemy_unit",
@@ -36,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_e_sword_idle",
-    "path":"sprites/spr_e_sword_idle/spr_e_sword_idle.yy",
+    "name":"spr_e_orc_sword_idle",
+    "path":"sprites/spr_e_orc_sword_idle/spr_e_orc_sword_idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
