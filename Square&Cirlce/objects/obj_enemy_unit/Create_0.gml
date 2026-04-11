@@ -1,2 +1,6 @@
-/// @description Insert description here
-// You can write your code in this editor
+event_inherited();
+side = -1;
+
+target_type = obj_player_unit;
+
+cooldown = 60;
