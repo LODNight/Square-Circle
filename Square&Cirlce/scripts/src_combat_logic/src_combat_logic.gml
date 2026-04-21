@@ -24,6 +24,9 @@ function scr_deal_damage(_attacker, _target){
 
     // 5. Trừ máu mục tiêu
     _target.hp -= _final_dmg;
+	
+	var text = instance_create_layer(_target.x, _target.y, "Instances", obj_damage_text)
+	text.damage = _final_dmg
     
     // 6. Hiệu ứng Feedback (Nháy đỏ)
 	if (_target.object_index == obj_tower_player || _target.object_index == obj_tower_enemy) {
