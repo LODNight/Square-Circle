@@ -33,8 +33,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Human",
-    "path":"folders/Sprites/Allaince/Human.yy",
+    "name":"sword",
+    "path":"folders/Sprites/Allaince/Human/sword.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

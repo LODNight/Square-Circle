@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"src_spawner_manager",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"src_spawner_manager",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

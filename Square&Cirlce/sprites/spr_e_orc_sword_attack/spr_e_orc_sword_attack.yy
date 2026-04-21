@@ -33,8 +33,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Orc",
-    "path":"folders/Sprites/Enemy/Orc.yy",
+    "name":"sword",
+    "path":"folders/Sprites/Enemy/Orc/sword.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

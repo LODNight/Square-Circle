@@ -9,6 +9,8 @@
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_unit_parent","path":"objects/obj_unit_parent/obj_unit_parent.yy",},"propertyId":{"name":"move_speed","path":"objects/obj_unit_parent/obj_unit_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_unit_parent","path":"objects/obj_unit_parent/obj_unit_parent.yy",},"propertyId":{"name":"atk_speed","path":"objects/obj_unit_parent/obj_unit_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"90",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_unit_parent","path":"objects/obj_unit_parent/obj_unit_parent.yy",},"propertyId":{"name":"atk_range","path":"objects/obj_unit_parent/obj_unit_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"230",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_unit_parent","path":"objects/obj_unit_parent/obj_unit_parent.yy",},"propertyId":{"name":"spawn_time","path":"objects/obj_unit_parent/obj_unit_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
   ],
   "parent":{
     "name":"Human",
@@ -36,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_a_h_sword_idle",
-    "path":"sprites/spr_a_h_sword_idle/spr_a_h_sword_idle.yy",
+    "name":"spr_a_h_archer_idle",
+    "path":"sprites/spr_a_h_archer_idle/spr_a_h_archer_idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
