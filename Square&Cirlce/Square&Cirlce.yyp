@@ -60,6 +60,7 @@
     {"id":{"name":"obj_tower_player","path":"objects/obj_tower_player/obj_tower_player.yy",},},
     {"id":{"name":"obj_unit_parent","path":"objects/obj_unit_parent/obj_unit_parent.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"global_","path":"scripts/global_/global_.yy",},},
     {"id":{"name":"src_combat_logic","path":"scripts/src_combat_logic/src_combat_logic.yy",},},
     {"id":{"name":"src_spawner_manager","path":"scripts/src_spawner_manager/src_spawner_manager.yy",},},
     {"id":{"name":"unit_function","path":"scripts/unit_function/unit_function.yy",},},
