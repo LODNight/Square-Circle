@@ -69,7 +69,9 @@ function scr_unit_state_move(){
     }
 
     x += _vx + _sep_x;
-    y = clamp(y + _vy + _sep_y, 500, 760);
+    var _min_y = instance_exists(obj_spawner) ? obj_spawner.min_spawn : 500;
+    var _max_y = instance_exists(obj_spawner) ? obj_spawner.max_spawn : 760;
+    y = clamp(y + _vy + _sep_y, _min_y, _max_y);
     
     image_xscale = (_vx != 0) ? sign(_vx) : side;
     if (sprite_index != spr_idle) sprite_index = spr_idle;
