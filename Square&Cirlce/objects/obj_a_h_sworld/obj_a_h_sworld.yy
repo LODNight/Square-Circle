@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_a_h_sword_idle",
-    "path":"sprites/spr_a_h_sword_idle/spr_a_h_sword_idle.yy",
+    "name":"spr_a_h_sword_i",
+    "path":"sprites/spr_a_h_sword_i/spr_a_h_sword_i.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,16 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_a_h_archer",
+  "%Name":"obj_a_h_spear",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_a_h_archer",
+  "name":"obj_a_h_spear",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_unit_parent","path":"objects/obj_unit_parent/obj_unit_parent.yy",},"propertyId":{"name":"move_speed","path":"objects/obj_unit_parent/obj_unit_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_unit_parent","path":"objects/obj_unit_parent/obj_unit_parent.yy",},"propertyId":{"name":"atk_speed","path":"objects/obj_unit_parent/obj_unit_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"90",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_unit_parent","path":"objects/obj_unit_parent/obj_unit_parent.yy",},"propertyId":{"name":"atk_range","path":"objects/obj_unit_parent/obj_unit_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"230",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_unit_parent","path":"objects/obj_unit_parent/obj_unit_parent.yy",},"propertyId":{"name":"atk_range","path":"objects/obj_unit_parent/obj_unit_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"90",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_unit_parent","path":"objects/obj_unit_parent/obj_unit_parent.yy",},"propertyId":{"name":"spawn_time","path":"objects/obj_unit_parent/obj_unit_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_unit_parent","path":"objects/obj_unit_parent/obj_unit_parent.yy",},"propertyId":{"name":"atk_damage","path":"objects/obj_unit_parent/obj_unit_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"11",},
   ],
   "parent":{
     "name":"Human",
@@ -38,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_a_h_archer_i",
-    "path":"sprites/spr_a_h_archer_i/spr_a_h_archer_i.yy",
+    "name":"spr_a_h_spear_i",
+    "path":"sprites/spr_a_h_spear_i/spr_a_h_spear_i.yy",
   },
   "spriteMaskId":null,
   "visible":true,
