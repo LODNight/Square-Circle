@@ -20,9 +20,6 @@ var _btn_h = 64;
 var _btn_y = 768 - 20 - _btn_h;
 var _spacing = 20;
 
-// Căn giữa UI Buttons
-draw_set_halign(fa_center);
-draw_set_valign(fa_middle);
 
 var _units = [obj_a_h_sworld, obj_a_h_archer, obj_a_h_spear, obj_a_h_shield];
 var _sprites = [spr_a_h_sword_i, spr_a_h_archer_i, spr_a_h_spear_i, spr_a_h_shield_i];
