@@ -29,7 +29,23 @@ function scr_unit_control_states(){
         if (_dist <= atk_range) {
             if (state != UNIT_STATE.ATTACK) {
                 state = UNIT_STATE.ATTACK;
-                attack_timer = atk_speed; 
+                
+                // Đòn đánh đầu tiên: Đánh ngay (chỉ cần bằng thời gian animation)
+                var _frames = sprite_get_number(spr_attack);
+                var _spr_fps = sprite_get_speed(spr_attack);
+                var _spd_type = sprite_get_speed_type(spr_attack);
+                
+                var _v_dur = 30;
+                if (_spr_fps > 0) {
+                    if (_spd_type == spritespeed_framespersecond) {
+                        _v_dur = (_frames / _spr_fps) * game_get_speed(gamespeed_fps);
+                    } else {
+                        _v_dur = _frames / _spr_fps;
+                    }
+                }
+                if (_v_dur > atk_speed) _v_dur = atk_speed;
+                
+                attack_timer = _v_dur; 
             }
         } else if (state == UNIT_STATE.ATTACK) {
             // Mục tiêu chạy ra khỏi tầm đánh -> Đuổi theo
@@ -67,6 +83,14 @@ function scr_unit_state_move(){
             }
         }
     }
+    
+    // Giới hạn lực đẩy giãn cách để tránh các unit bị đẩy đi quá nhanh khi tụ tập đông
+    var _sep_limit = max(1.5, move_speed);
+    var _sep_len = point_distance(0, 0, _sep_x, _sep_y);
+    if (_sep_len > _sep_limit) {
+        _sep_x = (_sep_x / _sep_len) * _sep_limit;
+        _sep_y = (_sep_y / _sep_len) * _sep_limit;
+    }
 
     x += _vx + _sep_x;
     var _min_y = instance_exists(obj_spawner) ? obj_spawner.min_spawn : 500;
@@ -74,15 +98,17 @@ function scr_unit_state_move(){
     y = clamp(y + _vy + _sep_y, _min_y, _max_y);
     
     image_xscale = (_vx != 0) ? sign(_vx) : side;
-    if (sprite_index != spr_idle) sprite_index = spr_idle;
+    if (sprite_index != spr_idle) {
+        sprite_index = spr_idle;
+        image_speed = 1;
+    }
 }
 
 /// @description: UNIT ATTACK
 function scr_unit_state_attack(){
     if (!instance_exists(target)) { state = UNIT_STATE.MOVE; return; }
-
     image_xscale = (target.x > x) ? 1 : -1;
-
+	
     if (attack_timer > 0) {
         attack_timer--;
         
@@ -124,7 +150,7 @@ function scr_unit_state_attack(){
         // Spawn 4 obj_e_dark_snake nếu là obj_e_dark_sm
         if (object_index == obj_e_dark_sm) {
             for (var i = 0; i < 4; i++) {
-                var _dist = random(10);
+                var _dist = random(32);
                 var _dir = random(360);
                 var _spawn_x = x + lengthdir_x(_dist, _dir);
                 var _spawn_y = y + lengthdir_y(_dist, _dir);
