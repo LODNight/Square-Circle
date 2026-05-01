@@ -121,6 +121,17 @@ function scr_unit_state_attack(){
         scr_deal_damage(id, target);
         attack_timer = atk_speed;
         
+        // Spawn 4 obj_e_dark_snake nếu là obj_e_dark_sm
+        if (object_index == obj_e_dark_sm) {
+            for (var i = 0; i < 4; i++) {
+                var _dist = random(10);
+                var _dir = random(360);
+                var _spawn_x = x + lengthdir_x(_dist, _dir);
+                var _spawn_y = y + lengthdir_y(_dist, _dir);
+                instance_create_depth(_spawn_x, _spawn_y, depth, obj_e_dark_snake);
+            }
+        }
+        
         if (target.hp <= 0) target = noone; // Để vòng lặp sau tự tìm target mới
     }
 }
