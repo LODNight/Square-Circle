@@ -79,11 +79,6 @@ function scr_unit_state_move(){
 
 /// @description: UNIT ATTACK
 function scr_unit_state_attack(){
-    if (sprite_index != spr_attack) {
-        sprite_index = spr_attack;
-        image_speed = 0;
-    }
-    
     if (!instance_exists(target)) { state = UNIT_STATE.MOVE; return; }
 
     image_xscale = (target.x > x) ? 1 : -1;
@@ -91,13 +86,36 @@ function scr_unit_state_attack(){
     if (attack_timer > 0) {
         attack_timer--;
         
-        // Nội suy Animation (Visual Duration nên lấy từ biến instance để dễ scale)
-        var _v_dur = 30; 
+        // Nội suy Animation dựa trên tốc độ thực tế của sprite (để chạy đúng fps)
+        var _frames = sprite_get_number(spr_attack);
+        var _spr_fps = sprite_get_speed(spr_attack);
+        var _spd_type = sprite_get_speed_type(spr_attack);
+        
+        var _v_dur = 30; // Mặc định
+        if (_spr_fps > 0) {
+            if (_spd_type == spritespeed_framespersecond) {
+                _v_dur = (_frames / _spr_fps) * game_get_speed(gamespeed_fps);
+            } else {
+                _v_dur = _frames / _spr_fps;
+            }
+        }
+        
+        // Đảm bảo không vượt quá atk_speed để không bị hụt animation
+        if (_v_dur > atk_speed) _v_dur = atk_speed;
+        
         if (attack_timer < _v_dur) {
-            var _frames = sprite_get_number(spr_attack);
+            // Đã vào frame đánh -> chạy animation đánh
+            if (sprite_index != spr_attack) {
+                sprite_index = spr_attack;
+                image_speed = 0;
+            }
             image_index = ((_v_dur - attack_timer) / _v_dur) * (_frames - 1);
         } else {
-            image_index = 0;
+            // Trong lúc chờ hồi chiêu -> chạy animation idle
+            if (sprite_index != spr_idle) {
+                sprite_index = spr_idle;
+                image_speed = 1;
+            }
         }
     } else {
         scr_deal_damage(id, target);
