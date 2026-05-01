@@ -36,6 +36,9 @@ if (keyboard_check_pressed(ord("4")) && scr_can_spawn(obj_a_h_shield)) {
     global.spawn_timers[$ _name] = _inst.spawn_time * 60;
 }
 
+
+// ============= ENEMY ===========
+
 // Nhấn phím 2 cho Enemy
 if (keyboard_check_pressed(ord("Q")) && scr_can_spawn(obj_e_orc_sworld)) {
     var _inst = instance_create_layer(obj_tower_enemy.x, irandom_range(min_spawn, max_spawn), "Instances", obj_e_orc_sworld);
@@ -43,6 +46,17 @@ if (keyboard_check_pressed(ord("Q")) && scr_can_spawn(obj_e_orc_sworld)) {
     var _name = object_get_name(obj_e_orc_sworld);
     global.spawn_timers[$ _name] = _inst.spawn_time * 60;
 }
+
+// Nhấn phím 2 cho Enemy
+if (keyboard_check_pressed(ord("W")) && scr_can_spawn(obj_e_dark_sm)) {
+    var _inst = instance_create_layer(obj_tower_enemy.x, irandom_range(min_spawn, max_spawn), "Instances", obj_e_dark_sm);
+    
+    var _name = object_get_name(obj_e_dark_sm);
+    global.spawn_timers[$ _name] = _inst.spawn_time * 60;
+}
+
+
+
 
 // --- LOGIC CLICK MOUSE TRÊN UI ---
 if (mouse_check_button_pressed(mb_left)) {
